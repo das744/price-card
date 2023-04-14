@@ -1,0 +1,119 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+body{
+    background-color: rgb(220, 248, 248);
+    width: 100vw;
+    height: 100vh;
+    max-height: 1200px;
+}
+.hero-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.hero-card{
+width: 250px;
+height: 450px;
+ margin: 15px;
+ border-radius: .4rem;
+ background-color:white ;
+ box-shadow: rgb(50 50 93 / 25%) 0px 30px 60px -12px, rgb(0 0 0 / 30%) 0px 18px 36px -18px;
+
+}
+
+.hero-card:nth-child(2){
+    background-image: linear-gradient(to bottom, #0e7ee6, #0098e9, #00abd9, #00bbbd, #43c6a2);
+    color: white;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 20px;
+    color:#0098e9;
+    
+  
+}
+.hero-card .heading:nth-child(2){
+    color:white;
+}
+
+.heading h4{
+    font-size: 30px;
+}
+.price{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, #0e7ee6, #0098e9, #00abd9, #00bbbd, #43c6a2);
+    text-align: center;
+    margin-left: 80px;
+    
+}
+.price h2{
+    padding-top: 25px;
+    margin-top: 10px;
+    color:white;
+    font-size: 30px;
+}
+.price h6{
+     color:#fff;
+
+}
+.services{
+    text-align: center;
+    margin: 10px;
+
+}
+.services ul li{
+    list-style: none;
+     padding-top: 10px;
+     color: #7e7f80;
+}
+.hero-card .list-style{
+    color: white;
+}
+button{
+  margin-left: 70px;
+  padding: 10px 10px;
+  border: none;
+  border-radius: .4rem;
+  background-color: #00bbbd;
+  font-weight: bold;
+  color: white;
+ 
+}
+  .second-btn{
+    background-color: white;
+    color:#00bbbd;
+}
+	/* Media Query for Mobile Devices */
+    @media (max-width: 480px) {
+          
+    }
+      
+    /* Media Query for low resolution  Tablets, ipads */
+    @media (min-width: 481px) and (max-width: 767px) {
+       
+    }
+      
+    /* Media Query for Tablets ipads portrait mode */
+    @media (min-width: 768px) and (max-width: 856px){
+        /* .hero-card button{
+            margin-left: 150px;
+
+        } */
+       
+    }
+      
+    /* Media Query for Laptops and Desktops */
+    @media (min-width: 1025px) and (max-width: 1280px){
+        
+    }
+      
+    /* Media Query for Large screens */
+    @media (min-width: 1281px) {
+        
+    }
